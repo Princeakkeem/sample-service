@@ -27,7 +27,7 @@ pre {{
 
 @app.route("/healthcheck")
 def healthcheck():
-    return "Healthy"
+    return "Testing"
 
 
 if __name__ == "__main__":
